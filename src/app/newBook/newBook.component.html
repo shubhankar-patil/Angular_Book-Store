@@ -1,0 +1,61 @@
+<div class="a">
+  <form [formGroup]="bookForm">
+
+  <div>
+    <label>
+      Name:
+    </label>
+    <input matInput type="text" id="name" formControlName="name">
+  </div><br>
+
+  <div>
+    <label for="author">
+      Author
+    </label>
+    <input matInput type="text" id="author" formControlName="author">
+  </div><br>
+
+  <div>
+    <label for="price">
+      Price
+    </label>
+    <input matInput type="text" id="price" formControlName="price">
+  </div><br>
+
+  <button class="button" type="submit" (click)="onPost()">Post</button>
+  <button class="button" type="submit" (click)="Cancel()">Cancel</button>
+</form>
+
+</div>
+
+<!--
+  <div class="a">
+  <form [formGroup]="bookForm">
+
+  <div>
+    <label>
+      Name:
+    </label>
+    <input matInput type="text" id="name" formControlName="name">
+  </div><br>
+
+  <div>
+    <label for="author">
+      Author
+    </label>
+    <input matInput type="text" id="author" formControlName="author">
+  </div><br>
+
+  <div>
+    <label for="price">
+      Price
+    </label>
+    <input matInput type="text" id="price" formControlName="price">
+  </div><br>
+
+  <button class="button" type="submit" (click)="onPost()">Post</button>
+  <button class="button" type="submit" (click)="Cancel()">Cancel</button>
+</form>
+
+</div>
+-->

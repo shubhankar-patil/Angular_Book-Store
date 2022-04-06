@@ -1,0 +1,34 @@
+<div>
+  <form [formGroup]="bookForm">
+      <div>
+      <label for="id">
+        Id:
+      </label>
+      <input type="text" id="id" formControlName="id">
+    </div><br>
+
+        
+          <div><label for="name">
+            Name:
+          </label>
+          <input   type="text" id="name" formControlName="name">
+        </div><br>
+
+       <div>
+          <label for="author">
+            Author
+          </label>
+          <input   type="text" id="author" formControlName="author">
+        </div> <br>
+
+        <div>
+          <label for="price">
+            Price
+          </label>
+          <input  type="text" id="price" formControlName="price">
+        </div><br>
+
+        <button class="button" type="submit" (click)="onUpdate()">Update</button>
+        <button class="button" type="submit" (click)="Cancel()">Cancel</button>
+  </form>
+</div>
